@@ -1,5 +1,16 @@
 #!/bin/bash
 
+# exmaples:
+# print diff files to stdout
+# diff_script.sh src_folder dest_folder
+#
+# copy files to output_folder
+# diff_script.sh src_folder dest_folder output_folder
+#
+# copy diff files to output_folder and create diff of files 
+# diff_script.sh src_folder dest_folder output_folder diff
+#
+
 SRC_FOLDER="${1}"
 DST_FOLDER="${2}"
 # Output folder
